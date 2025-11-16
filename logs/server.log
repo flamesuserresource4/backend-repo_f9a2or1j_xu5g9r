@@ -1,0 +1,63 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [252] using StatReload
+INFO:     Started server process [254]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:42532 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:42534 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42566 - "GET /api/automation-rules HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42582 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42534 - "GET /api/automation-rules HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42534 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42534 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42582 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42582 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42582 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42582 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/automation-rules HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42550 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/automation-rules HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:42574 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46022 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46022 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:34416 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/analytics HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46020 - "GET /api/servers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46030 - "GET /api/incidents?limit=20 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46030 - "GET /api/analytics HTTP/1.1" 200 OK
